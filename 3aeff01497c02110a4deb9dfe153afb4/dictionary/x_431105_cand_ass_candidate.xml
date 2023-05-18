@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Candidate" max_length="40" name="x_431105_cand_ass_candidate" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assessment" max_length="32" name="assessment" reference="x_431105_cand_ass_assessment" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Candidate" max_length="32" name="candidate" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Exclusion Reasons" max_length="4000" name="exclusion_reasons" reference="x_431105_cand_ass_exclusion_reason" reference_qual="javascript: &quot;assessment=&quot;+current.assessment;" type="glide_list" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" label="PreSelection Score" max_length="20" name="preselection_score" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason" max_length="100" name="reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Selection Score" max_length="20" name="selection_score" type="decimal"/>
+    </element>
+</database>

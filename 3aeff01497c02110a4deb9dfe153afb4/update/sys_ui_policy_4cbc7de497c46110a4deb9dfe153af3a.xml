@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <conditions table="x_431105_cand_ass_assessment">states_to_skipISNOTEMPTY^EQ<item endquery="false" field="states_to_skip" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>false</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[var PREPARATION = '7205a19897442110a4deb9dfe153af60'; // 10
+var ELIGIBILITY = '0c55a1d497442110a4deb9dfe153af5f'; //20
+var PRESELECTION_CBT = '5165ad5897442110a4deb9dfe153af6f'; //30
+var PRESELECTION = '7f65a1d497442110a4deb9dfe153af65'; //40
+var SELECTION = '8085299897442110a4deb9dfe153af4c'; //50
+var RESERVE_LIST = '0c95259897442110a4deb9dfe153afb8'; // 60
+
+function onCondition() {
+    var state = g_form.getValue('state');
+    var statesToSkip = g_form.getValue('states_to_skip');
+
+    var hideEligibility = (statesToSkip.indexOf(ELIGIBILITY) > -1 ? true : false);
+    var hideCBT = (statesToSkip.indexOf(PRESELECTION_CBT) > -1 ? true : false);
+    var hidePreSelection = (statesToSkip.indexOf(PRESELECTION) > -1 ? true : false);
+    var hideSelection = (statesToSkip.indexOf(SELECTION) > -1 ? true : false);
+
+    if (hideEligibility) $j(".disabled")[0].hide();
+    if (hideCBT) $j(".disabled")[1].hide();
+    if (hidePreSelection) $j(".disabled")[2].hide();
+    if (hideSelection) $j(".disabled")[3].hide();
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide process flows to skip</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 10:30:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4cbc7de497c46110a4deb9dfe153af3a</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Hide process flows to skip</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ui_policy_4cbc7de497c46110a4deb9dfe153af3a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 11:19:13</sys_updated_on>
+        <table>x_431105_cand_ass_assessment</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

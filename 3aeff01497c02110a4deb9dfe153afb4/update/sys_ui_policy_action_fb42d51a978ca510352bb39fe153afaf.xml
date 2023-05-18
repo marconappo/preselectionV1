@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>preselection_report_hr_case</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-30 17:51:31</sys_created_on>
+        <sys_id>fb42d51a978ca510352bb39fe153afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>preselection_report_hr_case</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_ui_policy_action_fb42d51a978ca510352bb39fe153afaf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-30 17:51:31</sys_updated_on>
+        <table>x_431105_cand_ass_assessment</table>
+        <ui_policy display_value="Hide Preselection Report HR Case if empty">0632551a978ca510352bb39fe153af68</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_431105_cand_ass_candidate" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Candidate - Default view" name="x_431105_cand_ass_candidate" related_list="NULL" sys_domain="global" view="Default view">fcb22bba9700e110c96bbf36f053af17</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:9b0b312497c46110a4deb9dfe153af24</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-01 17:39:08</sys_created_on>
+            <sys_id>f8b22bba9700e110c96bbf36f053af18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-01 17:39:08</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Candidate - Default view" name="x_431105_cand_ass_candidate" related_list="NULL" sys_domain="global" view="Default view">fcb22bba9700e110c96bbf36f053af17</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:604c1d2097446110a4deb9dfe153af18</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-01 17:39:08</sys_created_on>
+            <sys_id>fcb22bba9700e110c96bbf36f053af18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-01 17:39:08</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Candidate - Default view" name="x_431105_cand_ass_candidate" related_list="NULL" sys_domain="global" view="Default view">fcb22bba9700e110c96bbf36f053af17</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:5465a9e897446110a4deb9dfe153af0b</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-01 17:39:08</sys_created_on>
+            <sys_id>f0b22bba9700e110c96bbf36f053af19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-01 17:39:08</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Candidate - Default view" name="x_431105_cand_ass_candidate" related_list="NULL" sys_domain="global" view="Default view">fcb22bba9700e110c96bbf36f053af17</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:78a1277a9700e110c96bbf36f053af4b</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-01 17:39:08</sys_created_on>
+            <sys_id>f4b22bba9700e110c96bbf36f053af19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-01 17:39:08</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Candidate - Default view</calculated_name>
+            <filter/>
+            <name>x_431105_cand_ass_candidate</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-01 17:39:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fcb22bba9700e110c96bbf36f053af17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Candidate - Default view</sys_name>
+            <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_ui_related_x_431105_cand_ass_candidate_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-01 17:39:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

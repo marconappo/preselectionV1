@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition table="x_431105_cand_ass_assessment">state=30^EQ<item display_value="30" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="30"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Preselection CBT</label>
+        <name>Assessment Flow</name>
+        <order>3</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-24 14:38:41</sys_created_on>
+        <sys_id>abace19097842110a4deb9dfe153af2b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Assessment Flow</sys_name>
+        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_update_name>sys_process_flow_abace19097842110a4deb9dfe153af2b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 09:54:39</sys_updated_on>
+        <table>x_431105_cand_ass_assessment</table>
+    </sys_process_flow>
+</record_update>
