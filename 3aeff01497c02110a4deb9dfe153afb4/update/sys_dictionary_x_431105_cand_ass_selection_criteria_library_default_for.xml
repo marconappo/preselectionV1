@@ -14,7 +14,7 @@
         <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Default for</column_label>
+        <column_label>Assessment Stage</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -40,14 +40,12 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sys_choice">sys_choice</reference>
+        <reference display_value="" name="x_431105_cand_ass_stage_library">x_431105_cand_ass_stage_library</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
         <reference_qual>name=x_431105_cand_ass_assessment^element=state^EQ</reference_qual>
-        <reference_qual_condition table="sys_choice">name=x_431105_cand_ass_assessment^element=state^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="x_431105_cand_ass_assessment"/>
-            <item endquery="false" field="element" goto="false" newquery="false" operator="=" or="false" value="state"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <reference_qual_condition table="x_431105_cand_ass_stage_library">name=x_431105_cand_ass_assessment^element=state^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
         <sizeclass/>
@@ -57,14 +55,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-12-25 04:51:15</sys_created_on>
         <sys_id>29190b2647ba2110691e7258946d4359</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Default for</sys_name>
-        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Assessment Stage</sys_name>
+        <sys_package display_value="Recruitment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope display_value="Recruitment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_update_name>sys_dictionary_x_431105_cand_ass_selection_criteria_library_default_for</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-17 14:01:47</sys_updated_on>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-20 12:46:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

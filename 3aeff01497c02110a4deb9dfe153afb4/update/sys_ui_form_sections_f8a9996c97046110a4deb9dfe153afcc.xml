@@ -28,6 +28,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-01-01 20:43:25</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 21:53:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46d11cb347b66510691e7258946d43f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_431105_cand_ass_candidate" name="x_431105_cand_ass_candidate" sys_domain="global" view="Default view">f8a9996c97046110a4deb9dfe153afcc</sys_ui_form>
+            <sys_ui_section caption="Eligibility Details" display_value="Eligibility Details" name="x_431105_cand_ass_candidate" sys_domain="global" view="Default view">4ad11cb347b66510691e7258946d43f2</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-20 21:53:14</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_431105_cand_ass_candidate</name>
             <roles/>
@@ -40,9 +54,9 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_431105_cand_ass_candidate</sys_name>
             <sys_overrides/>
-            <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_package display_value="Recruitment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_scope display_value="Recruitment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
             <sys_update_name>sys_ui_form_sections_f8a9996c97046110a4deb9dfe153afcc</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-12-25 07:53:58</sys_updated_on>

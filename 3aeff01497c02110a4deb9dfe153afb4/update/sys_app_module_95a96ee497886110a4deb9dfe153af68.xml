@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Candidate Assessment">2179159c97042110a4deb9dfe153afba</application>
+        <application display_value="Talent">2179159c97042110a4deb9dfe153afba</application>
         <assessment/>
         <device_type/>
         <filter table="x_431105_cand_ass_assessment">president_chairDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORrapporteurDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="president_chair" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
@@ -28,17 +28,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>95a96ee497886110a4deb9dfe153af68</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>My Candidate Assessments</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>My Competitions</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_package display_value="Recruitment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope display_value="Recruitment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_update_name>sys_app_module_95a96ee497886110a4deb9dfe153af68</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-25 14:34:40</sys_updated_on>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-18 07:16:47</sys_updated_on>
         <timeline_page/>
-        <title>My Candidate Assessments</title>
+        <title>My Competitions</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
