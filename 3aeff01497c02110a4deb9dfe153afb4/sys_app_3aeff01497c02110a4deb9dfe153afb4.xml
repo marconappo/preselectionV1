@@ -14,13 +14,13 @@
         <license_model>none</license_model>
         <logo/>
         <menu/>
-        <name>Candidate Assessment</name>
+        <name>Talent 2</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_431105_cand_ass</scope>
         <scoped_administration>false</scoped_administration>
-        <short_description/>
+        <short_description>Preselection V1.0 starting from candidate-assessment-with-candidate-flow for internal and external competitions</short_description>
         <source>x_431105_cand_ass</source>
         <store_correlation_id/>
         <store_url/>
@@ -29,9 +29,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-12-24 11:23:06</sys_created_on>
         <sys_id>3aeff01497c02110a4deb9dfe153afb4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-01 18:38:14</sys_updated_on>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-20 22:16:27</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>

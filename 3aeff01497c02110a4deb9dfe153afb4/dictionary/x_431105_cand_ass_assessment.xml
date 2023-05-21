@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="use_document_viewer=true" audit="true" extends="task" label="Publication" max_length="40" name="x_431105_cand_ass_assessment" sizeclass="4" text_index="true" type="collection">
+    <element attributes="use_document_viewer=true" audit="true" extends="task" label="Publication" max_length="40" name="x_431105_cand_ass_assessment" sizeclass="6" text_index="true" type="collection">
         <element label="Available from" max_length="40" name="available_from" type="glide_date"/>
         <element default="Administration" function_definition="Administration" label="Budget" max_length="40" name="budget" type="string"/>
         <element attributes="encode_utf8=false" hint="aka Group in EPSO TALENT" label="Category" max_length="32" name="category" reference="x_431105_cand_ass_publication_category" type="reference"/>

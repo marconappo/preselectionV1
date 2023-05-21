@@ -9,9 +9,9 @@
             <sys_id>7d35259897442110a4deb9dfe153afb1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>state</sys_name>
-            <sys_package display_value="Recruitment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_package display_value="Talent 2" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Recruitment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_scope display_value="Talent 2">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
             <sys_update_name>sys_choice_x_431105_cand_ass_assessment_state</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-12-24 14:06:04</sys_updated_on>
@@ -100,6 +100,26 @@
             <dependent_value/>
             <element>state</element>
             <hint/>
+            <inactive>false</inactive>
+            <label>Closure</label>
+            <language>en</language>
+            <name>x_431105_cand_ass_assessment</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-21 09:12:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d2d26f34772a510691e7258946d432c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-21 09:12:06</sys_updated_on>
+            <value>40</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
             <inactive>true</inactive>
             <label>Provisional</label>
             <language>en</language>
@@ -115,26 +135,6 @@
             <sys_updated_by>nappoma</sys_updated_by>
             <sys_updated_on>2023-05-20 21:43:46</sys_updated_on>
             <value>40</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>state</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Closure</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>5</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 17:49:34</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0f0ad76347b26510691e7258946d4302</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 17:49:51</sys_updated_on>
-            <value>50</value>
         </sys_choice>
     </sys_choice>
 </record_update>
