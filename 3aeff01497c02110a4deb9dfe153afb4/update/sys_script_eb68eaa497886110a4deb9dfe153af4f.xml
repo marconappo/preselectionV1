@@ -20,7 +20,7 @@
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>Request Approval at eligble decision</name>
+        <name>Candidate Approval</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -40,15 +40,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>eb68eaa497886110a4deb9dfe153af4f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Request Approval at eligble decision</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Candidate Approval</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Talent 2" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Talent 2">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_update_name>sys_script_eb68eaa497886110a4deb9dfe153af4f</sys_update_name>
         <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-05-21 09:33:02</sys_updated_on>
+        <sys_updated_on>2023-05-21 18:18:27</sys_updated_on>
         <template>approval=requested^EQ</template>
         <when>before</when>
     </sys_script>

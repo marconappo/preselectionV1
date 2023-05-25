@@ -9,9 +9,9 @@
             <sys_id>d53fb5d497c42110a4deb9dfe153af7a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>state</sys_name>
-            <sys_package display_value="Talent 2" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Talent 2">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
             <sys_update_name>sys_choice_x_431105_cand_ass_candidate_state</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-12-24 15:59:38</sys_updated_on>
@@ -40,7 +40,7 @@
             <dependent_value/>
             <element>state</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Application form validated by candidate</label>
             <language>en</language>
             <name>x_431105_cand_ass_candidate</name>
@@ -51,16 +51,16 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ac1ff5d497c42110a4deb9dfe153af24</sys_id>
-            <sys_mod_count>7</sys_mod_count>
+            <sys_mod_count>8</sys_mod_count>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 20:56:34</sys_updated_on>
+            <sys_updated_on>2023-05-23 12:31:41</sys_updated_on>
             <value>20</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Application form created</label>
             <language>en</language>
             <name>x_431105_cand_ass_candidate</name>
@@ -71,16 +71,16 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f28fbd9497c42110a4deb9dfe153afae</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 21:25:58</sys_updated_on>
+            <sys_updated_on>2023-05-23 12:31:41</sys_updated_on>
             <value>30</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Admission tests - Info about next step</label>
             <language>en</language>
             <name>x_431105_cand_ass_candidate</name>
@@ -91,9 +91,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b19fb9d497c42110a4deb9dfe153af23</sys_id>
-            <sys_mod_count>7</sys_mod_count>
+            <sys_mod_count>8</sys_mod_count>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 21:26:00</sys_updated_on>
+            <sys_updated_on>2023-05-23 12:31:41</sys_updated_on>
             <value>40</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">

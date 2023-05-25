@@ -9,9 +9,9 @@
             <sys_id>7d35259897442110a4deb9dfe153afb1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>state</sys_name>
-            <sys_package display_value="Talent 2" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Talent 2">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
             <sys_update_name>sys_choice_x_431105_cand_ass_assessment_state</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-12-24 14:06:04</sys_updated_on>
@@ -21,7 +21,7 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Draft</label>
+            <label>Publication</label>
             <language>en</language>
             <name>x_431105_cand_ass_assessment</name>
             <sequence>0</sequence>
@@ -31,9 +31,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>52c9f27e47ba6110691e7258946d43ee</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-18 07:43:21</sys_updated_on>
+            <sys_updated_on>2023-05-21 14:10:16</sys_updated_on>
             <value>0</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -61,19 +61,39 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Admission</label>
+            <label>Admission Test</label>
             <language>en</language>
             <name>x_431105_cand_ass_assessment</name>
             <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-05-20 17:49:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1c91bef47726510691e7258946d436e</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-05-23 11:45:42</sys_updated_on>
+            <value>50</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Admission</label>
+            <language>en</language>
+            <name>x_431105_cand_ass_assessment</name>
+            <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-12-24 14:07:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>8085299897442110a4deb9dfe153af4c</sys_id>
-            <sys_mod_count>8</sys_mod_count>
+            <sys_mod_count>9</sys_mod_count>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 17:48:47</sys_updated_on>
+            <sys_updated_on>2023-05-23 11:43:56</sys_updated_on>
             <value>20</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -84,16 +104,16 @@
             <label>Assessment</label>
             <language>en</language>
             <name>x_431105_cand_ass_assessment</name>
-            <sequence>3</sequence>
+            <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-12-24 14:07:35</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0c95259897442110a4deb9dfe153afb8</sys_id>
-            <sys_mod_count>10</sys_mod_count>
+            <sys_mod_count>11</sys_mod_count>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 17:48:49</sys_updated_on>
+            <sys_updated_on>2023-05-23 11:44:03</sys_updated_on>
             <value>30</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -101,39 +121,19 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Closure</label>
+            <label>Reserve List</label>
             <language>en</language>
             <name>x_431105_cand_ass_assessment</name>
-            <sequence>4</sequence>
+            <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>nappoma</sys_created_by>
             <sys_created_on>2023-05-21 09:12:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0d2d26f34772a510691e7258946d432c</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-21 09:12:06</sys_updated_on>
-            <value>40</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>state</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Provisional</label>
-            <language>en</language>
-            <name>x_431105_cand_ass_assessment</name>
-            <sequence>4</sequence>
-            <synonyms/>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-20 17:49:26</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a1c91bef47726510691e7258946d436e</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 21:43:46</sys_updated_on>
+            <sys_updated_on>2023-05-23 11:44:09</sys_updated_on>
             <value>40</value>
         </sys_choice>
     </sys_choice>

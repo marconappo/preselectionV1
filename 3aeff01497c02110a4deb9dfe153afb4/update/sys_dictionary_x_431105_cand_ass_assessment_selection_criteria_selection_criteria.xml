@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Selection Criteria</column_label>
+        <column_label>Competency</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -56,14 +56,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-12-24 16:14:26</sys_created_on>
         <sys_id>b9190b2647ba2110691e7258946d43a6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Selection Criteria</sys_name>
-        <sys_package display_value="Candidate Assessment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Competency</sys_name>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Candidate Assessment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_update_name>sys_dictionary_x_431105_cand_ass_assessment_selection_criteria_selection_criteria</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-17 14:01:42</sys_updated_on>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-05-23 12:27:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

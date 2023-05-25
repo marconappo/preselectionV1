@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="default_for" label="Assessment Stage" language="en" table="x_431105_cand_ass_selection_criteria_library">
+    <sys_documentation element="default_for" label="Competition State" language="en" table="x_431105_cand_ass_selection_criteria_library">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>default_for</element>
             <help/>
             <hint/>
-            <label>Assessment Stage</label>
+            <label>Competition State</label>
             <language>en</language>
             <name>x_431105_cand_ass_selection_criteria_library</name>
-            <plural>Assessment Stages</plural>
+            <plural>Competition States</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-12-25 04:51:16</sys_created_on>
             <sys_id>2d190b2647ba2110691e7258946d4359</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Assessment Stage</sys_name>
-            <sys_package display_value="Recruitment" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Competition State</sys_name>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Recruitment">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
             <sys_update_name>sys_documentation_x_431105_cand_ass_selection_criteria_library_default_for_en</sys_update_name>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-20 12:36:04</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-21 15:03:31</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

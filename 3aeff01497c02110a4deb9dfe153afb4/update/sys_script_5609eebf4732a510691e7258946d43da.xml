@@ -20,7 +20,7 @@
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>Publication End - Start Admission</name>
+        <name>Start Admission</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -46,15 +46,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5609eebf4732a510691e7258946d43da</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Publication End - Start Admission</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Start Admission</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Talent 2" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+        <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Talent 2">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+        <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_update_name>sys_script_5609eebf4732a510691e7258946d43da</sys_update_name>
-        <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-05-21 09:28:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 15:05:32</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
